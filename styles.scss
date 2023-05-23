@@ -1,0 +1,24 @@
+.slider-figure {
+  display: block;
+  position: relative;
+  cursor: zoom-in;
+  padding-top: 107%;
+  background-repeat: no-repeat;
+  background-size: 170% 170%;
+
+  > img {
+    transition: opacity 0.5s;
+    display: block;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    object-fit: contain;
+    background-color: #fff;
+
+    &:hover {
+      opacity: 0;
+    }
+  }
+}
